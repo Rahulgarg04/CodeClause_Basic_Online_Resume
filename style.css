@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: rgba(146, 146, 146, 0.815);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.innerbox{
+    padding: 35px 35px 35px 30px;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+    top: 30px;
+    background-color: rgb(238, 237, 198);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    border: 3px solid rgb(238, 237, 198);
+   }
+.left{
+    position: relative;
+    margin-top: 10px;
+    background-color: rgb(201, 188, 129);
+    width: 400px;
+    height: 1200px;
+    padding: 150px 30px 30px 30px;
+    border-radius: 5px;
+}
+.right{
+    padding: 150px 30px 30px 30px ;
+    margin-top: 10px;
+    background-color: rgb(244, 250, 244);
+    width: 500px;
+    height: 1200px;
+    border-radius: 5px;
+}
+.information{
+    padding-left: 10px ;
+}
+.personal{
+    margin-top: 15px;;
+}
+.info{
+   padding-left: 5px;
+}
+.subhead{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.education{
+    padding-left: 10px;
+    margin-top: 25px;
+}
+.skill{
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.study{
+    margin-top: 15px;
+}
+.edu{
+    font-weight: bold;
+    font-family: cursive;
+}
+.list{
+    margin-top: 10px;
+    list-style: none;
+    font-size: 14px;
+    font-family: monospace;
+    margin-bottom: 10px;
+    text-align: justify;
+
+}
+.descr{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+.tools{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.para{
+    margin-top: 15px;
+    text-align: justify ;
+    padding-right: 30px;
+    font-size: 14px;
+    font-family: monospace;
+    margin-bottom: 15px;
+    
+}
+.exp{
+    font-weight: bold;
+    font-family: cursive;
+    }
